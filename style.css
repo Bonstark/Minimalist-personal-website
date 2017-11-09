@@ -1,0 +1,92 @@
+@font-face {
+     font-family: "Mplus 1p";
+     src: url("https://fonts.googleapis.com/earlyaccess/mplus1p.css");
+   }
+body{
+  /*font-family: "Sawarabi Gothic";*/
+  font-family: "MS PGothic",'Mplus 1p','ＭＳ Ｐゴシック';
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://i.imgur.com/2doOI9I.gifv');
+  background-position: 0% 0%, center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-attachment: scroll;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 2rem;
+}
+#container{
+  display: none;
+  width: 45rem;
+  max-width: 90%;
+  height: 20rem;
+  max-height: 90%;
+  position: absolute;
+  padding: 5rem;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgba(54, 69, 79, 0.5);
+  border-radius: 25px;
+  box-shadow: 0 0 10px black;
+}
+#left{
+  margin-top:-2rem;
+  width: 65%;
+  height: 20rem;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  color: white;
+}
+#leftTop{
+
+}
+#leftBottom{
+  position:relative;
+  display: inline-block;
+  float:left;
+  margin-top: 1rem;
+}
+.svg{
+  display: inline-block;
+  height: 4.4rem;
+  width: 4.4rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  pointer-events:all;
+  fill: none;
+}
+
+path:hover {
+    fill: rgb(85,109,124);
+}
+#right{
+  width: 34%;
+  height: 15rem;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url('https://i.imgur.com/GAIjLnh.png');
+  background-size: 15rem;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.5);
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 2rem;
+}
+
+.rotate{
+	-ms-transform: rotateY(360deg); /* IE 9 */
+  -webkit-transform: rotateY(360deg); /* Chrome, Safari, Opera */
+  transform: rotateY(360deg);
+  transition-duration: 3s;
+}

@@ -7,7 +7,7 @@ body{
   font-family: "MS PGothic",'Mplus 1p','ＭＳ Ｐゴシック';
   width: 100vw;
   height: 100vh;
-  background-image: url('assets/original.gif');
+  background-image: url('https://i.imgur.com/2doOI9I.gif');
   background-position: 0% 0%, center;
   background-repeat: no-repeat;
   background-size:  cover;
@@ -86,7 +86,7 @@ path:hover {
   height: 15rem;
   display: inline-block;
   vertical-align: top;
-  background-image: url('assets/a060.png');
+  background-image: url('https://i.imgur.com/GAIjLnh.png');
   background-size: 15rem;
   border-radius: 50%;
   background-color: rgba(255,255,255,0.5);

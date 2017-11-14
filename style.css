@@ -3,8 +3,7 @@
      src: url("https://fonts.googleapis.com/earlyaccess/mplus1p.css");
    }
 body{
-  /*font-family: "Sawarabi Gothic";*/
-  font-family: "MS PGothic",'Mplus 1p','ＭＳ Ｐゴシック';
+  font-family:'Mplus 1p', "MS PGothic", 'ＭＳ Ｐゴシック';
   width: 100vw;
   height: 100vh;
   background-image: url('https://i.imgur.com/2doOI9I.gif');
@@ -18,10 +17,13 @@ body{
 
 h2{
   font-size: 3rem;
+  margin:0rem 0rem 1rem;
 }
 h3{
-  font-size: 2rem;
+  font-size: 1.7rem;
+  margin:0;
 }
+
 #container{
   display: none;
   width: 45rem;
@@ -39,48 +41,17 @@ h3{
   border-radius: 25px;
   box-shadow: 0 0 10px black;
 }
-.hiddenOnLoad{
-  display: none;
 
-}
-#leftTopHidden{
-  height:16rem;
-}
-#leftBottomHidden{
-
-}
 #left{
   margin-top:-2rem;
   width: 65%;
-  height: 20rem;
+  height: 23rem;
   display: inline-block;
   vertical-align: top;
   text-align: center;
   color: white;
 }
-#leftTop{
-height: 16.5rem;
-display: inline-block;
-}
-#leftBottom{
-  position:relative;
-  display: inline-block;
-  float:left;
-  margin-top: 1rem;
-}
-.svg{
-  display: inline-block;
-  height: 4.4rem;
-  width: 4.4rem;
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
-  pointer-events:all;
-  fill: none;
-}
 
-path:hover {
-    fill: rgb(85,109,124);
-}
 #right{
   width: 34%;
   height: 15rem;
@@ -93,6 +64,40 @@ path:hover {
   background-position: center center;
   background-repeat: no-repeat;
   margin-top: 2rem;
+}
+
+#leftTop{
+  display: inline-block;
+}
+.leftTop{
+  height: 19rem;
+}
+
+#leftBottom{
+  display: inline-block;
+}
+.leftBottom{
+  position:relative;
+  float:right;
+  margin-top: 1rem;
+}
+
+.svg{
+  display: inline-block;
+  height: 4.4rem;
+  width: 4.4rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  pointer-events:all;
+  fill: none;
+  cursor: pointer;
+}
+.hiddenOnLoad{
+  display: none;
+}
+
+.svg:hover path{
+    fill: rgb(85,109,124);
 }
 
 .rotate{
